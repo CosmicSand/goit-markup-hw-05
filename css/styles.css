@@ -593,7 +593,10 @@ body {
   height: 584px;
   background-color: var(--dairy);
   border-radius: 4px;
-  padding: 24px;
+  padding-left: 24px;
+  padding-right: 24px;
+  padding-top: 72px;
+  padding-bottom: 24px;
 }
 .cross {
   display: flex;
@@ -615,4 +618,16 @@ body {
 .cross:focus {
   background-color: var(--iris);
   fill: var(--white);
+}
+
+.modal-text {
+  font-weight: 500;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+  text-align: center;
+  color: var(--navy-blue);
+  /* margin-left: auto;
+  margin-right: auto; */
+  margin-bottom: 16px;
+  /* width: 100%; */
 }
