@@ -643,17 +643,26 @@ body {
   border: 0;
   border-radius: 50%;
   background-color: var(--cornflower);
-  fill: var(--navy-blue);
   transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1),
-    border 250ms cubic-bezier(0.4, 0, 0.2, 1), fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
+    border 250ms cubic-bezier(0.4, 0, 0.2, 1);
   border: 1px solid rgba(0, 0, 0, 0.1);
+}
+
+.close-button-icon {
+  fill: var(--navy-blue);
+  transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .close-button:hover,
 .close-button:focus {
-  background-color: var(--iris);
+  background-color: var(--ocean);
   fill: var(--white);
   border: none;
+}
+
+.close-button:hover .close-button-icon,
+.close-button:focus .close-button-icon {
+  fill: var(--white);
 }
 
 .modal-text {
