@@ -552,25 +552,26 @@
           </div>
 
           <!-- Checkbox -->
-
-          <input
-            class="checkbox-acception visually-hidden"
-            type="checkbox"
-            name="acception"
-            id="acception-check"
-            value="accepted"
-            required
-          />
-          <label class="check-label" for="acception-check">
-            <span class="privacy-own-checkbox"
-              ><svg class="modal-check-icon" width="10" height="8" aria-label="check-icon">
-                <use href="./images/icons.svg#check"></use>
-              </svg>
-            </span>
-            I accept the terms and conditions of the&nbsp;<a class="modal-privacy-link" href=""
-              >Privacy Policy
-            </a>
-          </label>
+          <div class="checkbox-main-container">
+            <input
+              class="checkbox-acception visually-hidden"
+              type="checkbox"
+              name="acception"
+              id="user-privacy"
+              value="true"
+              required
+            />
+            <label class="check-label" for="user-privacy">
+              <span class="privacy-own-checkbox"
+                ><svg class="modal-check-icon" width="10" height="8" aria-label="check-icon">
+                  <use href="./images/icons.svg#check"></use>
+                </svg>
+              </span>
+              I accept the terms and conditions of the&nbsp;<a class="modal-privacy-link" href=""
+                >Privacy Policy
+              </a>
+            </label>
+          </div>
 
           <button class="modal-button" type="submit">Send</button>
         </form>
