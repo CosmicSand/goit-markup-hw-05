@@ -840,7 +840,7 @@ body {
 }
 
 .privacy-own-checkbox {
-  display: flex;
+  display: inline-flex;
   justify-content: center;
   align-items: center;
   width: 16px;
