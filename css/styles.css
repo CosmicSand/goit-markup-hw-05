@@ -726,18 +726,10 @@ body {
   align-items: center;
 } */
 
-.checkbox-container {
+/* .checkbox-container {
   display: flex;
-  align-items: center;
   width: 100%;
-  /* justify-content: center; */
-  /* border: 1px solid var(--navy-blue-modal); */
-  /* width: 16px;
-  height: 16px; */
-  /* background-color: tomato; */
-  /* border-radius: 4px; */
-  /* color: black; */
-}
+} */
 
 /* .modal-icon-container {
   display: flex;
