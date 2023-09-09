@@ -600,6 +600,7 @@ body {
   height: 40px;
   padding: 8px 16px;
   border: 1px solid var(--white);
+  outline: transparent;
   font-size: 12px;
   line-height: 2;
   letter-spacing: 0.02em;
