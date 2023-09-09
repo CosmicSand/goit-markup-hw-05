@@ -598,6 +598,9 @@ body {
   height: 100%;
   background-color: rgba(46, 47, 66, 0.4);
   z-index: 999999;
+
+  opacity: 0;
+  visibility: hidden;
 }
 
 .modal-window {
