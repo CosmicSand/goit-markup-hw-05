@@ -713,17 +713,18 @@ body {
 }
 
 .check-label {
-  /* margin-left: 8px; */
+  display: flex;
+  align-items: center;
   color: var(--light-slate);
   font-size: 12px;
   line-height: 1.17;
   letter-spacing: 0.03em;
 }
 
-.main-checkbox-container {
+/* .main-checkbox-container {
   display: flex;
   align-items: center;
-}
+} */
 
 .checkbox-container {
   display: flex;
