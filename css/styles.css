@@ -632,8 +632,6 @@ body {
   align-items: center;
   position: absolute;
   padding: 8px;
-  /* width: 24px;
-  height: 24px; */
   top: 24px;
   right: 24px;
   line-height: 0;
@@ -657,10 +655,7 @@ body {
   letter-spacing: 0.02em;
   text-align: center;
   color: var(--navy-blue);
-  /* margin-left: auto;
-  margin-right: auto; */
   margin-bottom: 16px;
-  /* width: 100%; */
 }
 
 .input-field {
@@ -669,7 +664,6 @@ body {
   padding-top: 11px;
   padding-bottom: 11px;
   padding-left: 38px;
-  /* margin-bottom: 8px; */
   border: 1px solid var(--navy-blue-modal);
   border-radius: 4px;
   transition: border-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
@@ -704,14 +698,6 @@ body {
   line-height: 1.17;
   letter-spacing: 0.03em;
 }
-
-/* .input-label:focus-within .input-div {
-  fill: var(--iris);
-} */
-
-/* .input-label:focus-within .modal-icons {
-  fill: var(--iris);
-} */
 
 .input-field:focus + .modal-icons {
   fill: var(--iris);
@@ -749,46 +735,6 @@ body {
   line-height: 1.17;
   letter-spacing: 0.03em;
 }
-
-/* Моя версия */
-
-/* .modal-check-icon-container {
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  border: 1px solid var(--navy-blue-modal);
-  border-radius: 4px;
-  padding: 0;
-  width: 16px;
-  height: 16px;
-  margin-right: 8px;
-  transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1),
-    border-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
-  cursor: pointer;
-} */
-
-/* Іконка успадковує властивості від span тому немає необхідності задавати їй fill */
-
-/* .modal-check-icon {
-  fill: transparent;
-  transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
-} */
-
-/* Моя версія */
-
-/* .checkbox-acception:checked + .checkbox-container .modal-check-icon {
-  fill: white;
-}
-
-.checkbox-acception:checked + .checkbox-container .modal-check-icon-container {
-  background-color: var(--iris);
-  border-color: var(--iris);
-}
-
-
-.checkbox-acception {
-  display: none;
-} */
 
 .privacy-own-checkbox {
   display: flex;
