@@ -685,7 +685,15 @@ body {
   letter-spacing: 0.03em;
 }
 
-.input-label:focus-within .input-div {
+/* .input-label:focus-within .input-div {
+  fill: var(--iris);
+} */
+
+/* .input-label:focus-within .modal-icons {
+  fill: var(--iris);
+} */
+
+.input-field:focus + .modal-icons {
   fill: var(--iris);
 }
 
