@@ -742,11 +742,11 @@ body {
   resize: none;
 }
 
-.comment-area:focus {
+.comment-text-area:focus {
   border-color: var(--iris);
 }
 
-.comment-area::placeholder {
+.comment-text-area::placeholder {
   font-size: 12px;
   line-height: 1.17;
   letter-spacing: 0.03em;
