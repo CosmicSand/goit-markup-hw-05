@@ -590,7 +590,7 @@ body {
   fill: var(--cloud);
 }
 
-.shadow-modal {
+.backdrop {
   position: fixed;
   top: 0;
   left: 0;
@@ -602,9 +602,11 @@ body {
   opacity: 0;
   visibility: hidden;
   pointer-events: none;
+  transition: opacity 250ms cubic-bezier(0.4, 0, 0.2, 1),
+    visibility 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
-.without-shadow-modal.with-shadow-modal {
+.backdrop.backdrop-on {
   opacity: 1;
   visibility: visible;
   pointer-events: auto;
@@ -676,7 +678,7 @@ body {
 
 .modal-icons {
   position: absolute;
-  top: 8px;
+  top: 26px;
   left: 16px;
   transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
