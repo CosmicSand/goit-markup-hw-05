@@ -627,7 +627,7 @@ body {
 
 .submit-btn {
   display: flex;
-  justify-content: center;
+  justify-content: space-between;
   align-items: center;
   min-width: 165px;
   height: 40px;
@@ -644,7 +644,7 @@ body {
 }
 
 .submit-btn-icon {
-  margin-left: 16px;
+  /* margin-left: 16px; */
   fill: var(--white);
 }
 
